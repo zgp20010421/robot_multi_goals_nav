@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find sophon_robot)/rviz/nav.rviz" />
+  <node pkg="sophon_robot" name="record_position" type="record_position.py" output="screen" />
+  
+</launch>

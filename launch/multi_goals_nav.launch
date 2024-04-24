@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name="multi_goals_nav" pkg="sophon_robot" type="task.py" output="screen" />
+  
+</launch>
